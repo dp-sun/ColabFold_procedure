@@ -55,7 +55,7 @@ export TF_FORCE_GPU_ALLOW_GROWTH="true"
 ```
 
 It is recommended to add these export commands to `~/.bashrc` and restart bash (`~/.bashrc` will be executed every time bash is started)
-* The complete of installation (by checking the command `colabfold_batch`):
+* The complete installation (by checking the command `colabfold_batch`):
 > <div align=center><img src='/pics/install_finish.PNG'/></div>
 
 

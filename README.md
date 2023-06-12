@@ -1,4 +1,4 @@
-# LocalColabFold
+# LocalColabFold (Based on official guidence)
 
 [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) on your local server. See also [ColabFold repository](https://github.com/sokrypton/ColabFold).
 

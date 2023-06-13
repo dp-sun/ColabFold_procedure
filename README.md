@@ -35,7 +35,7 @@ If the version is 4.8.5 or older (e.g. CentOS 7), install a new one and add `PAT
 
     If you find errors in the output log, the easiest way is to check the network and delete the colabfold_batch directory, then re-run the installation script.
 
-5. Add environment variable PATH:<pre># For bash or zsh<br>
+5. Add environment variable PATH:<pre># For bash or zsh
 export PATH="/root/AlphaFold/localcolabfold/colabfold-conda/bin:\$PATH" 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/AlphaFold/localcolabfold/colabfold-conda/lib
 export PATH=$PATH:/root/AlphaFold/localcolabfold/colabfold-conda/bin

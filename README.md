@@ -16,14 +16,15 @@
 
 2. Make sure your Cuda compiler driver is **11.1 or later** (If you don't have a GPU or don't plan to use a GPU, you can skip this section) :<pre>$ nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2020 NVIDIA Corporation
-Built on Mon_Oct_12_20:09:46_PDT_2020
-Cuda compilation tools, release 11.1, V11.1.105
+Copyright (c) 2005-2022 NVIDIA Corporation
+Built on Wed_Sep_21_10:33:58_PDT_2022
+Cuda compilation tools, release 11.8, V11.8.89
+Build cuda_11.8.r11.8/compiler.31833905_0
 Build cuda_11.1.TC455_06.29190527_0 </pre> Please type the following command if you haven't installed it :<pre> conda install -c nvidia cuda-toolkit</pre>  (Chose the [specific version of cuda-toolkit](https://anaconda.org/nvidia/cuda-toolkit) based on your system environment.)
 
 3. Make sure your GNU compiler version is **4.9 or later** because `GLIBCXX_3.4.20` is required:<pre>$ gcc --version
-gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
-Copyright (C) 2019 Free Software Foundation, Inc.
+gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</pre>If the version is 4.8.5 or older (e.g. CentOS 7), install a new one and add `PATH` to it.
 4. Download `install_colabbatch_linux.sh` from this repository:<pre>$ wget https://raw.githubusercontent.com/YoshitakaMo/localcolabfold/main/install_colabbatch_linux.sh </pre> and run it in the directory where you want to install:<pre>$ bash install_colabbatch_linux.sh</pre>About 5 minutes later, `colabfold_batch` directory will be created. Do not move this directory after the installation.

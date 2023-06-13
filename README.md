@@ -4,7 +4,7 @@
 
 ## System requirements & Runtime Environment(RE)
 * Ubuntu 18.04 or later (Tested on Ubuntu 18.04.5 LTS)
-* NVIDIA driver 525.60.11, CUDA Version: 12.0, CuDNN 8.8.0.121
+* NVIDIA driver 525.60.11, CUDA Version: 11.8, CuDNN 8.8.0.121
 * Anaconda3 (Python 3.10.11)
 * tensorflow 2.12.0
 

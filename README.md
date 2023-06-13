@@ -2,7 +2,7 @@
 
 [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) on your local server. See also [ColabFold repository](https://github.com/sokrypton/ColabFold).
 
-## System requirements & Runtime Environment(RE)
+## Runtime Environment
 * Ubuntu 18.04 or later (Tested on Ubuntu 18.04.5 LTS)
 * NVIDIA driver 525.60.11, CUDA Version: 11.8, CuDNN 8.8.0.121
 * Anaconda3 (Python 3.10.11)

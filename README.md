@@ -33,7 +33,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</pre
 
     If you find errors in the output log, the easiest way is to check the network and delete the colabfold_batch directory, then re-run the installation script.
 
-5. Add environment variable PATH:<pre># For bash or zsh<br># e.g. export PATH="/home/moriwaki/Desktop/localcolabfold/colabfold-conda/bin:\$PATH"<br>export PATH="/path/to/your/localcolabfold/colabfold-conda/bin:\$PATH"</pre>
+5. Add environment variable PATH:<pre># For bash or zsh<br># export PATH="/path/to/your/localcolabfold/colabfold-conda/bin:\$PATH" export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/AlphaFold/localcolabfold/colabfold-conda/lib
+export PATH=$PATH:/root/AlphaFold/localcolabfold/colabfold-conda/bin
+export CUDA_HOME=$CUDA_HOME:/root/AlphaFold/localcolabfold/colabfold-conda</pre>
 It is recommended to add this export command to `~/.bashrc` and restart bash (`~/.bashrc` will be executed every time bash is started)
 
 6. To run the prediction, type <pre>colabfold_batch input/Q5VSL9.fasta output/</pre>The result files will be created in the `outputdir`. This command will execute the prediction without templates and relaxation (energy minimization). If you want to use templates and relaxation, add `--templates` and `--amber` flags, respectively. For example,

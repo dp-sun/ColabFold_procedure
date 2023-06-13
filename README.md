@@ -60,7 +60,7 @@ export TF_FORCE_GPU_ALLOW_GROWTH="true"
 
 It is recommended to add these export commands to `~/.bashrc` and restart bash (`~/.bashrc` will be executed every time bash is started)
 * The complete installation (by checking the command `colabfold_batch`):
-> <div align=center><img src='/pics/install_finish.PNG'/></div>
+> <div align=center><img src='./pics/install_finish.PNG'/></div>
 
 
 ### Input Examples
@@ -141,18 +141,18 @@ These flags are useful for the predictions.
 ## Testing and Validation
 1) Q5VSL9 (Striatin-interacting protein 1)
 * Presentation on PyMOL (rank 1 of 5 models is shown):
-> <div align=center><img src='/pics/Q5VSL9_pymol.PNG'/></div>
-> <div align=center><img src='/pics/sp_Q5VSL9_STRP1_HUMAN_Striatin-interacting_protein_1_OS_Homo_sapiens_OX_9606_GN_STRIP1_PE_1_SV_1_pae.png'/></div>
-> <div align=center><img src='/pics/sp_Q5VSL9_STRP1_HUMAN_Striatin-interacting_protein_1_OS_Homo_sapiens_OX_9606_GN_STRIP1_PE_1_SV_1_plddt.png'/></div>
+> <div align=center><img src='./pics/Q5VSL9_pymol.PNG'/></div>
+> <div align=center><img src='./pics/sp_Q5VSL9_STRP1_HUMAN_Striatin-interacting_protein_1_OS_Homo_sapiens_OX_9606_GN_STRIP1_PE_1_SV_1_pae.png'/></div>
+> <div align=center><img src='./pics/sp_Q5VSL9_STRP1_HUMAN_Striatin-interacting_protein_1_OS_Homo_sapiens_OX_9606_GN_STRIP1_PE_1_SV_1_plddt.png'/></div>
 * Presentation on Database of AlphaFold :
-> <div align=center><img src='/pics/Q5VSL9_database.PNG'/></div>
+> <div align=center><img src='./pics/Q5VSL9_database.PNG'/></div>
 
 2) Insulin (P01308, complex with chain A and B)
 * Presentation on PyMOL (rank 1 of 5 models is shown):
-> <div align=center><img src='/pics/insulin_pymol.PNG'/></div>
-> <div align=center><img src='/pics/insulin_AB_pae.png'/></div>
-> <div align=center><img src='/pics/insulin_AB_plddt.png'/></div>
+> <div align=center><img src='./pics/insulin_pymol.PNG'/></div>
+> <div align=center><img src='./pics/insulin_AB_pae.png'/></div>
+> <div align=center><img src='./pics/insulin_AB_plddt.png'/></div>
 * Presentation on Database of AlphaFold :
-> <div align=center><img src='/pics/insulin_databse.PNG'/></div>
+> <div align=center><img src='./pics/insulin_databse.PNG'/></div>
 
 

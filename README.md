@@ -20,7 +20,8 @@ Copyright (c) 2005-2022 NVIDIA Corporation
 Built on Wed_Sep_21_10:33:58_PDT_2022
 Cuda compilation tools, release 11.8, V11.8.89
 Build cuda_11.8.r11.8/compiler.31833905_0
-Build cuda_11.1.TC455_06.29190527_0 </pre> Please type the following command if you haven't installed it :<pre> conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit\conda install -c conda-forge cudnn==8.8.0.121 cudatoolkit==11.8.0</pre>  (Chose the [specific version of cuda-toolkit](https://anaconda.org/nvidia/cuda-toolkit) based on your system environment.)
+Build cuda_11.1.TC455_06.29190527_0 </pre> Please type the following command if you haven't installed it :<pre> conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit  
+conda install -c conda-forge cudnn==8.8.0.121 cudatoolkit==11.8.0</pre>  (Chose the [specific version of cuda-toolkit](https://anaconda.org/nvidia/cuda-toolkit) based on your system environment.)
 
 3. Make sure your GNU compiler version is **4.9 or later** because `GLIBCXX_3.4.20` is required:<pre>$ gcc --version
 gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
